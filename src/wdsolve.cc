@@ -92,6 +92,7 @@ int main (int argc, char *argv[]){
     double vscale = Constants::TWOPI/period*Constants::RSUN/1e3*a*sin(Constants::TWOPI*iangle/360.);
     std::cout << "K1 = " << form(vscale*q/(1+q)) << " km/s" << std::endl;
     std::cout << "K2 = " << form(vscale/(1+q))   << " km/s" << std::endl;
+    std::cout << "log(g) of white dwarf = " << form(log10(Constants::G*Constants::MSUN*m/pow(Constants::RSUN*r1*a,2))+2.) << std::endl;
     double jdotgr = Binary::jdotgr(m, q*m, a);
     double b = 3*jdotgr/2*period*period;
     std::cout << "Quadratic coeff of ephemeris = " << form(b)   << " sec" << std::endl;

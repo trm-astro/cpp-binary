@@ -1,10 +1,6 @@
 
-'binary' is a package of functions of use for binary stars. It includes
-basic routines for computing orbital angular velocities and periods for
-example and also a few mass/radius type relations.
+'binary' is a package of basic functions of use for binary stars. 
 
-Read INSTALL for instructions on installation.
+Installation order: subs --> binary
 
-TRM
-
-14/06/2002
+See www.astro.warwick.ac.uk/people/marsh/software for further info.
