@@ -47,4 +47,6 @@ AC_PROG_INSTALL
 
 dnl The Makefiles to create
 
-AC_OUTPUT([Makefile include/Makefile src/Makefile doc/Makefile]) 
+AC_CONFIG_FILES([Makefile include/Makefile src/Makefile doc/Makefile]) 
+
+AC_OUTPUT
