@@ -1,7 +1,7 @@
 #include <cmath>
 #include <string>
-#include "trm_subs.h"
-#include "trm_binary.h"
+#include "trm/subs.h"
+#include "trm/binary.h"
 
 /**
  * If the moment of inertia is given by k M R^2, this program computes 'k' for 

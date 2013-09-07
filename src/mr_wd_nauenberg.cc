@@ -1,7 +1,7 @@
 #include <cmath>
 #include <string>
-#include "trm_subs.h"
-#include "trm_binary.h"
+#include "trm/subs.h"
+#include "trm/binary.h"
 
 /**
  * Implements Nauenberg's 1972 analytic approx to degenerate M-R 

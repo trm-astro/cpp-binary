@@ -1,8 +1,8 @@
 #include <cstdlib>
 #include <cmath>
-#include "trm_subs.h"
-#include "trm_constants.h"
-#include "trm_binary.h"
+#include "trm/subs.h"
+#include "trm/constants.h"
+#include "trm/binary.h"
 
 /**
  * kepler_omega computes the Keplerian angular velocity a distance \b r

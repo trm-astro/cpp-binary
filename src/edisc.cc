@@ -44,12 +44,12 @@ where theta is angle from periastron. az can lie from -1 to +1.}
 #include <cstdlib>
 #include <iostream>
 #include "cpgplot.h"
-#include "trm_subs.h"
-#include "trm_plot.h"
-#include "trm_array1d.h"
-#include "trm_format.h"
-#include "trm_input.h"
-#include "trm_binary.h"
+#include "trm/subs.h"
+#include "trm/plot.h"
+#include "trm/array1d.h"
+#include "trm/format.h"
+#include "trm/input.h"
+#include "trm/binary.h"
 
 int main (int argc, char *argv[]){
 

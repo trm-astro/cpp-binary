@@ -1,6 +1,6 @@
 #include <cstdlib>
 #include <cmath>
-#include "trm_binary.h"
+#include "trm/binary.h"
 
 /**
  * rcirc computes the relative size of the circularisation radius according to Verbunt and

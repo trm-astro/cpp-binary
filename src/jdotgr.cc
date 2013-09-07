@@ -1,8 +1,8 @@
 #include <cstdlib>
 #include <iostream>
-#include "trm_constants.h"
-#include "trm_subs.h"
-#include "trm_binary.h"
+#include "trm/constants.h"
+#include "trm/subs.h"
+#include "trm/binary.h"
 
 /** jdotgr computes the rate of change of 
  * orbital angular momentum divided by the orbital

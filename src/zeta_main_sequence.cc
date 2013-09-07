@@ -1,5 +1,5 @@
 #include <cmath>
-#include "trm_binary.h"
+#include "trm/binary.h"
 
 /**
  * This function returns the adiabatic logarithmic derivative of radius wrt mass for a

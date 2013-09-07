@@ -1,8 +1,8 @@
 #include <cstdlib>
 #include <iostream>
-#include "trm_constants.h"
-#include "trm_subs.h"
-#include "trm_binary.h"
+#include "trm/constants.h"
+#include "trm/subs.h"
+#include "trm/binary.h"
 
 /** vellipse compute the x and y velocity of a particle executing
  * an elliptical orbit about a star located at the origin. The long axis of

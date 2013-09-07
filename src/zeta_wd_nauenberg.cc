@@ -1,5 +1,5 @@
 #include <cmath>
-#include "trm_binary.h"
+#include "trm/binary.h"
 
 /**
  * The logarithmic derivative of radius wrt mass is an important parameter of a star

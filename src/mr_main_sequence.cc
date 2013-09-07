@@ -1,5 +1,5 @@
 #include <cmath>
-#include "trm_binary.h"
+#include "trm/binary.h"
 
 /**
  * Returns main-sequence radius given a mass. Completely crude

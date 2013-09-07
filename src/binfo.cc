@@ -26,10 +26,10 @@ wave angular momentum loss rate.
 
 #include <cstdlib>
 #include <iostream>
-#include "trm_subs.h"
-#include "trm_format.h"
-#include "trm_input.h"
-#include "trm_binary.h"
+#include "trm/subs.h"
+#include "trm/format.h"
+#include "trm/input.h"
+#include "trm/binary.h"
 
 int main (int argc, char *argv[]){
 

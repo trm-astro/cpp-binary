@@ -1,7 +1,7 @@
 #include <cstdlib>
 #include <cmath>
-#include "trm_subs.h"
-#include "trm_binary.h"
+#include "trm/subs.h"
+#include "trm/binary.h"
 
 /**
  * This omputes the minimum radius reached by the gas stream

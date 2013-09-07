@@ -1,7 +1,7 @@
 #include <cstdlib>
-#include "trm_constants.h"
-#include "trm_subs.h"
-#include "trm_binary.h"
+#include "trm/constants.h"
+#include "trm/subs.h"
+#include "trm/binary.h"
 
 /**
  * orbital_ang_mom computes the orbital angular momentum

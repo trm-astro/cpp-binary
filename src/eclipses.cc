@@ -1,8 +1,8 @@
 #include <cstdlib>
 #include <math.h>
-#include "trm_subs.h"
-#include "trm_constants.h"
-#include "trm_binary.h"
+#include "trm/subs.h"
+#include "trm/constants.h"
+#include "trm/binary.h"
 
 /**
  * This program computes whether a binary of specific masses,
