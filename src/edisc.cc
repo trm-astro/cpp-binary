@@ -124,7 +124,7 @@ int main (int argc, char *argv[]){
         int nsplit;
         input.get_value("nsplit", nsplit, 5, 1, 1000, "sub-division factor");
         const int NFINE = nsplit*npix;
-      
+
         double fwhm;
         input.get_value("fwhm", fwhm, 200., 1., 10000., "FWHM resolution (km/s)");
         double q;
