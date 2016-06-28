@@ -81,8 +81,8 @@ Binary::Einfo Binary::vellipse(double m, double e, double a, double theta){
     double Edot_x = (omega_x - e*omega*sinE*E_x/fac1)/fac1;
     double Edot_y = (omega_y - e*omega*sinE*E_y/fac1)/fac1;
 
-    double thetadot_x = sqrt(zeta)/fac0*(Edot_x-(zeta-1)*cosE*E_x*Edot/2./fac0);
-    double thetadot_y = sqrt(zeta)/fac0*(Edot_y-(zeta-1)*cosE*E_y*Edot/2./fac0);
+    double thetadot_x = sqrt(zeta)/fac0*(Edot_x-(zeta-1)*sinE*E_x*Edot/2./fac0);
+    double thetadot_y = sqrt(zeta)/fac0*(Edot_y-(zeta-1)*sinE*E_y*Edot/2./fac0);
 
     double vr_x = e/(fac*fac)*(l*sint*thetadot_x + l*cost*theta_x*thetadot + l_x*sint*thetadot + 2*e/fac*l*sint*sint*theta_x*thetadot);
     double vr_y = e/(fac*fac)*(l*sint*thetadot_y + l*cost*theta_y*thetadot + l_y*sint*thetadot + 2*e/fac*l*sint*sint*theta_y*thetadot);
