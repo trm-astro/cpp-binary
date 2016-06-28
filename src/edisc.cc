@@ -96,7 +96,7 @@ int main (int argc, char *argv[]){
         std::string sdata;
         double vstart, vstep;
         int npix;
-        input.get_value("data", sdata, "null", "data file to store (km/s)");
+        input.get_value("data", sdata, "none", "data file to store (km/s)");
         Subs::Array1D<Subs::xyz<double,float,float> > data;
         if(sdata == "none"){
             double vmax;
