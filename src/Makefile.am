@@ -10,7 +10,7 @@ binfo_SOURCES   = binfo.cc
 edisc_SOURCES   = edisc.cc
 wdsolve_SOURCES = wdsolve.cc
 
-INCLUDES = -I../include -I../.
+AM_CPPFLAGS = -I../include -I../.
 
 LDADD = libbinary.la
 
