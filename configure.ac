@@ -31,7 +31,7 @@ AC_CHECK_HEADERS([trm/subs.h trm/position.h trm/constants.h trm/array1d.h],[],
 AC_CHECK_HEADERS([stdlib.h float.h math.h sstream string fstream iostream], [],
                  [AC_MSG_ERROR(missing header; please fix)])
 
-AC_CHECK_HEADERS([pcrecpp.h slalib.h], [],
+AC_CHECK_HEADERS([pcrecpp.h sofa.h], [],
                  [AC_MSG_ERROR(missing header; please fix)])
 
 dnl libraries
@@ -42,8 +42,8 @@ AC_CHECK_LIB([subs], [main], [],
 AC_CHECK_LIB([pcrecpp], [main], [],
              [AC_MSG_ERROR(cannot link to the pcrecpp library)])
 
-AC_CHECK_LIB([csla], [main], [],
-             [AC_MSG_ERROR(cannot link to the sla C library)])
+AC_CHECK_LIB([sofa_c], [main], [],
+             [AC_MSG_ERROR(cannot link to the sofa C library)])
 
 dnl PGPLOT has its own macro 'cos its a pain
 TRM_LIB_PGPLOT
