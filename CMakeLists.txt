@@ -3,7 +3,7 @@ project(cpp-binary)
 
 include(ExternalProject)
 
-message("CMakeLists.txt for cpp-binary")
+message("\nCMakeLists.txt for cpp-binary")
 message("PROJECT_SOURCE_DIR: ${PROJECT_SOURCE_DIR}")
 message("CMAKE_BINARY_DIR: ${CMAKE_BINARY_DIR}")
 
@@ -83,3 +83,5 @@ set_target_properties(${PACKAGE_NAME} PROPERTIES
 include("${CMAKE_COMMON}/install_lib.cmake") # Get the generic install function
 
 install_lib(${PACKAGE_NAME})
+
+message("cpp-binary CMakeLists.txt complete\n")
