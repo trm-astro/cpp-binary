@@ -66,10 +66,10 @@ target_link_libraries(${PACKAGE_NAME}
 )
 
 # Set RPATH properties
-set_target_properties(${PACKAGE_NAME} PROPERTIES
-    INSTALL_RPATH "${CMAKE_INSTALL_PREFIX}/lib"
-    INSTALL_RPATH_USE_LINK_PATH TRUE
-)
+# set_target_properties(${PACKAGE_NAME} PROPERTIES
+#     INSTALL_RPATH "${CMAKE_INSTALL_PREFIX}/lib"
+#     INSTALL_RPATH_USE_LINK_PATH TRUE
+# )
 
 ############################################################
 # Create an executable
